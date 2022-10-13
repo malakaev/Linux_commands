@@ -84,6 +84,8 @@
 ``find . -empty -delete`` - удалить все пустые директории<br>
 ``find . -empty -exec rm -r {} \;`` - удалить все пустые директории командой rm<br>
 ``find . -name "*.jpg" -exec cp {} /images \;`` - перенести все jpeg в папку images<br>
+
+Пример: ``find /Users/kgolda/temp/for_git/test_2/.git -type f -name ".DS_*" -delete`` - найти и удалить все файлы .DS_*
 ***
 ### Ports
 + [Оглавление](https://github.com/codesshaman/documentation/#Оглавление "Оглавление")
